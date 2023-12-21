@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+#wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg,#e4245e,#f77168);
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title h1{
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+
+#single-task{
+    width: 300px;
+    padding: 10px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    font-size: 20px;
+}
+
+button{
+    background: black;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    padding: 13px 18px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.task{
+    margin-bottom: 5px;
+    margin-top: 20px;
+    background: #fff;
+    color: #000;
+    list-style: none;
+    padding: 0 15px;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.task .delete{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 25px;
+    margin: 0;
+    font-size: 40px;
+    float: right;
+}
+
+/* --------------For Responsive-------------------- */
+
+@media (max-width:600px){
+    .main{
+        margin: 15px;
+    }
+    #single-task{
+        width: 200px;
+    }
+}
